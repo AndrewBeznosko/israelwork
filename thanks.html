@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<title>ВАШ ЗАКАЗ ПРИНЯТ</title>
+	<meta name="viewport" content="width=480">
+
+	<!-- Facebook Pixel Code -->
+	<script>
+		! function (f, b, e, v, n, t, s) {
+			if (f.fbq) return;
+			n = f.fbq = function () {
+				n.callMethod ?
+					n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+			};
+			if (!f._fbq) f._fbq = n;
+			n.push = n;
+			n.loaded = !0;
+			n.version = '2.0';
+			n.queue = [];
+			t = b.createElement(e);
+			t.async = !0;
+			t.src = v;
+			s = b.getElementsByTagName(e)[0];
+			s.parentNode.insertBefore(t, s)
+		}(window, document, 'script',
+			'https://connect.facebook.net/en_US/fbevents.js');
+		fbq('init', '307556826735594');
+		fbq('track', 'PageView');
+	</script>
+	<noscript><img height="1" width="1" style="display:none"
+			src="https://www.facebook.com/tr?id=307556826735594&ev=PageView&noscript=1" /></noscript>
+	<!-- End Facebook Pixel Code -->
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-129431302-2&v=e3bfa18f74fce94a4d9c038518b2feff">
+	</script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-145117962-1');
+	</script>
+</head>
+
+<body>
+	<h1>Спасибо, ваша заявка принята. Менеджер свяжется с вами в ближайшее время.</h1>
+	<style>
+		body {
+			background-image: url('./index_files/bg_thanks.jpg');
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-position: center;
+			background-size: cover;
+			padding: 15px;
+			margin: 0;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			height: 100vh;
+			position: relative;
+		}
+
+		body::after {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			background-color: rgba(255, 255, 255, 0.7);
+			width: 100%;
+			height: 100%;
+		}
+
+		h1 {
+			text-align: inherit;
+			font-weight: 700;
+			font-size: 1.875rem;
+			line-height: 1.2;
+			color: rgb(6, 20, 82);
+			font-family: sans-serif;
+			max-width: 640px;
+			z-index: 3;
+		}
+	</style>
+</body>
+
+</html>

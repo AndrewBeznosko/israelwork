@@ -1262,7 +1262,8 @@
                                                         <div class="video-wrapper"><iframe
                                                                 data-src="https://www.youtube.com/embed/rwr0OqizH_o?vq=hd1080&rel=0&modestbranding=1&showinfo=0&autohide=1&playsinline=1&color=white&enablejsapi=1"
                                                                 frameborder="0" allowfullscreen=""
-                                                                src="https://www.youtube.com/embed/rwr0OqizH_o?vq=hd1080&rel=0&modestbranding=1&showinfo=0&autohide=1&playsinline=1&color=white&enablejsapi=1"></iframe></div>
+                                                                src="https://www.youtube.com/embed/rwr0OqizH_o?vq=hd1080&rel=0&modestbranding=1&showinfo=0&autohide=1&playsinline=1&color=white&enablejsapi=1"></iframe>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1699,9 +1700,8 @@
                                                 <div class="element-content">
                                                     <div class="component-form form-fields style-filled  fields-count-2"
                                                         data-style="style-filled" data-component="form">
-                                                        <form class="form-element"
-                                                            action="https://israelwork.co.ua/mod/lead/send/"
-                                                            method="post" enctype="multipart/form-data" novalidate="">
+                                                        <form class="form-element" action="send.php" method="post"
+                                                            enctype="multipart/form-data" novalidate="">
                                                             <div class="form_info"><input type="hidden" name="p_id"
                                                                     value="822806"><input type="hidden" name="id"
                                                                     value="form01"><input type="hidden" name="goal"
@@ -1715,9 +1715,9 @@
                                                                 <div class="form-field" data-type="name"
                                                                     data-is-required="0">
                                                                     <div class="form-field-text"><input type="text"
-                                                                            class="form-field-text--input"
-                                                                            name="form[273045]" autocomplete="on"
-                                                                            data-check="name" required="">
+                                                                            class="form-field-text--input" name="name"
+                                                                            autocomplete="on" data-check="name"
+                                                                            required="">
                                                                         <hr class="border"><label
                                                                             class="form-field-title">Имя</label>
                                                                         <div class="error"><span
@@ -1731,10 +1731,9 @@
                                                                 <div class="form-field" data-type="phone"
                                                                     data-is-required="1">
                                                                     <div class="form-field-text"><input type="tel"
-                                                                            class="form-field-text--input"
-                                                                            name="form[264311]" autocomplete="on"
-                                                                            data-check="phone" data-required="true"
-                                                                            required="">
+                                                                            class="form-field-text--input" name="phone"
+                                                                            autocomplete="on" data-check="phone"
+                                                                            data-required="true" required="">
                                                                         <hr class="border"><label
                                                                             class="form-field-title">Телефон *</label>
                                                                         <div class="error"><span
@@ -1746,7 +1745,8 @@
                                                                             value="Телефон"></div>
                                                                 </div>
                                                                 <div class="form_fields_advanced"></div>
-                                                                <div class="form-submit"><a
+                                                                <div class="form-submit"><button
+                                                                        type="submit"
                                                                         class="component-button form-field-submit effect--opacity weight--medium size--medium squared filled wide"
                                                                         data-modal-id="516680_">
                                                                         <div class="btn-content btn-content-text">
@@ -1767,7 +1767,7 @@
                                                                             <div class="form-submit-text btn-text">
                                                                                 Отправить заявку</div>
                                                                         </div>
-                                                                    </a></div>
+                                                                    </button></div>
                                                             </div>
                                                         </form>
                                                     </div>
@@ -2287,15 +2287,14 @@
                                             <div class="element-content">
                                                 <div class="component-form form-fields style-filled  fields-count-3"
                                                     data-style="style-filled" data-component="form">
-                                                    <form class="form-element"
-                                                        action="https://israelwork.co.ua/mod/lead/send/" method="post"
+                                                    <form class="form-element" action="send.php" method="post"
                                                         enctype="multipart/form-data" novalidate="">
                                                         <div class="form_info"><input type="hidden" name="p_id"
                                                                 value="822806"><input type="hidden" name="id"
                                                                 value="form01"><input type="hidden" name="goal"
                                                                 value=""><textarea name="goal_html"
                                                                 style="display:none"></textarea><input type="hidden"
-                                                                name="name" value="Пример формы"><input type="hidden"
+                                                                name="name" value="Перезвоните мне"><input type="hidden"
                                                                 name="action" value="redirect"><input type="submit"
                                                                 hidden="hidden"><input type="hidden"
                                                                 name="action_redirect" value="/thanks/"></div>
@@ -2304,7 +2303,7 @@
                                                                 data-is-required="1">
                                                                 <div class="form-field-text"><input type="text"
                                                                         class="form-field-text--input"
-                                                                        name="form[533089]" autocomplete="on"
+                                                                        name="name" autocomplete="on"
                                                                         data-check="name" data-required="true"
                                                                         required="">
                                                                     <hr class="border"><label
@@ -2321,7 +2320,7 @@
                                                                 data-is-required="1">
                                                                 <div class="form-field-text"><input type="tel"
                                                                         class="form-field-text--input"
-                                                                        name="form[666702]" autocomplete="on"
+                                                                        name="phone" autocomplete="on"
                                                                         data-check="phone" data-required="true"
                                                                         required="">
                                                                     <hr class="border"><label
@@ -2338,7 +2337,7 @@
                                                                 data-is-required="0">
                                                                 <div class="form-field-text"><input type="text"
                                                                         class="form-field-text--input"
-                                                                        name="form[758113]" autocomplete="on"
+                                                                        name="age" autocomplete="on"
                                                                         data-check="text" required="">
                                                                     <hr class="border"><label
                                                                         class="form-field-title">Возраст</label>
@@ -2351,7 +2350,8 @@
                                                                         value="Возраст"></div>
                                                             </div>
                                                             <div class="form_fields_advanced"></div>
-                                                            <div class="form-submit"><a
+                                                            <div class="form-submit"><button
+                                                                type="submit"
                                                                     class="component-button form-field-submit effect--opacity weight--medium size--medium squared filled wide"
                                                                     data-modal-id="done27309">
                                                                     <div class="btn-content btn-content-text">
@@ -2371,7 +2371,7 @@
                                                                         <div class="form-submit-text btn-text">Отправить
                                                                         </div>
                                                                     </div>
-                                                                </a></div>
+                                                                </button></div>
                                                         </div>
                                                     </form>
                                                 </div>
@@ -2491,15 +2491,14 @@
                                             <div class="element-content">
                                                 <div class="component-form form-fields style-filled  fields-count-2"
                                                     data-style="style-filled" data-component="form">
-                                                    <form class="form-element"
-                                                        action="https://israelwork.co.ua/mod/lead/send/" method="post"
+                                                    <form class="form-element" action="send.php" method="post"
                                                         enctype="multipart/form-data" novalidate="">
                                                         <div class="form_info"><input type="hidden" name="p_id"
                                                                 value="822806"><input type="hidden" name="id"
                                                                 value="form01"><input type="hidden" name="goal"
                                                                 value=""><textarea name="goal_html"
                                                                 style="display:none"></textarea><input type="hidden"
-                                                                name="name" value="Пример формы"><input type="hidden"
+                                                                name="name" value="Перезвоните мне"><input type="hidden"
                                                                 name="action" value="redirect"><input type="submit"
                                                                 hidden="hidden"><input type="hidden"
                                                                 name="action_redirect"
@@ -2509,7 +2508,7 @@
                                                                 data-is-required="1">
                                                                 <div class="form-field-text"><input type="tel"
                                                                         class="form-field-text--input"
-                                                                        name="form[666702]" autocomplete="on"
+                                                                        name="phone" autocomplete="on"
                                                                         data-check="phone" data-required="true"
                                                                         required="">
                                                                     <hr class="border"><label
@@ -2540,7 +2539,8 @@
                                                                         value="Удобное время для связи"></div>
                                                             </div>
                                                             <div class="form_fields_advanced"></div>
-                                                            <div class="form-submit"><a
+                                                            <div class="form-submit"><button
+                                                                type="submit"
                                                                     class="component-button form-field-submit effect--opacity weight--medium size--medium squared filled wide"
                                                                     data-modal-id="done78930">
                                                                     <div class="btn-content btn-content-text">
@@ -2560,7 +2560,7 @@
                                                                         <div class="form-submit-text btn-text">Отправить
                                                                         </div>
                                                                     </div>
-                                                                </a></div>
+                                                                </button></div>
                                                         </div>
                                                     </form>
                                                 </div>
