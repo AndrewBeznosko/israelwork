@@ -45,11 +45,11 @@
                 displaay: none !important;
             }
 
-            body.adaptive [data-w-id=MENU01] .nav-menu-item.nav-menu-item--menu .element-item:first-of-type {
+            /* body.adaptive [data-w-id=MENU01] .nav-menu-item.nav-menu-item--menu .element-item:first-of-type {
                 display: none;  
-            }
+            } */
 
-            body.adaptive [data-w-id=MENU01] .nav-menu-item .element-item:first-of-type {
+            body.adaptive [data-w-id=MENU01] .nav-menu-item .element-item:last-of-type {
                 display: none;  
             }
         }
@@ -436,6 +436,7 @@
                                                 <div class="button-wrapper button-1 " data-item-id="1">
                                                     <div class="button-container"><a
                                                             class="component-button  filled squared size--medium weight--medium effect--opacity"
+                                                            data-vacancy="Работа на складе вещей"
                                                             data-action="modal" data-modal-id="form86171"
                                                             data-component="button">
                                                             <div class="btn-content btn-content-text"><svg
@@ -517,6 +518,7 @@
                                                 <div class="button-wrapper button-1 " data-item-id="1">
                                                     <div class="button-container"><a
                                                             class="component-button  filled squared size--medium weight--medium effect--opacity"
+                                                            data-vacancy="Уборка квартир и домов"
                                                             data-action="modal" data-modal-id="form86171"
                                                             data-component="button">
                                                             <div class="btn-content btn-content-text"><svg
@@ -599,6 +601,7 @@
                                                 <div class="button-wrapper button-1 " data-item-id="1">
                                                     <div class="button-container"><a
                                                             class="component-button  filled squared size--medium weight--medium effect--opacity"
+                                                            data-vacancy="Работа на стройке"
                                                             data-action="modal" data-modal-id="form86171"
                                                             data-component="button">
                                                             <div class="btn-content btn-content-text"><svg
@@ -684,6 +687,7 @@
                                                 <div class="button-wrapper button-1 " data-item-id="1">
                                                     <div class="button-container"><a
                                                             class="component-button  filled squared size--medium weight--medium effect--opacity"
+                                                            data-vacancy="Работа в супермаркете"
                                                             data-action="modal" data-modal-id="form86171"
                                                             data-component="button">
                                                             <div class="btn-content btn-content-text"><svg
@@ -767,6 +771,7 @@
                                                 <div class="button-wrapper button-1 " data-item-id="1">
                                                     <div class="button-container"><a
                                                             class="component-button  filled squared size--medium weight--medium effect--opacity"
+                                                            data-vacancy="Работа в ресторане"
                                                             data-action="modal" data-modal-id="form86171"
                                                             data-component="button">
                                                             <div class="btn-content btn-content-text"><svg
@@ -851,6 +856,7 @@
                                                 <div class="button-wrapper button-1 " data-item-id="1">
                                                     <div class="button-container"><a
                                                             class="component-button  filled squared size--medium weight--medium effect--opacity"
+                                                            data-vacancy="Работа в спорткомплексе"
                                                             data-action="modal" data-modal-id="form86171"
                                                             data-component="button">
                                                             <div class="btn-content btn-content-text"><svg
@@ -935,6 +941,7 @@
                                                 <div class="button-wrapper button-1 " data-item-id="1">
                                                     <div class="button-container"><a
                                                             class="component-button  filled squared size--medium weight--medium effect--opacity"
+                                                            data-vacancy="Работа в кондитерской"
                                                             data-action="modal" data-modal-id="form86171"
                                                             data-component="button">
                                                             <div class="btn-content btn-content-text"><svg
@@ -1014,6 +1021,7 @@
                                                 <div class="button-wrapper button-1 " data-item-id="1">
                                                     <div class="button-container"><a
                                                             class="component-button  filled squared size--medium weight--medium effect--opacity"
+                                                            data-vacancy="Работа горничной"
                                                             data-action="modal" data-modal-id="form86171"
                                                             data-component="button">
                                                             <div class="btn-content btn-content-text"><svg
@@ -1097,6 +1105,7 @@
                                                 <div class="button-wrapper button-1 " data-item-id="1">
                                                     <div class="button-container"><a
                                                             class="component-button  filled squared size--medium weight--medium effect--opacity"
+                                                            data-vacancy="Шоколадная фабрика"
                                                             data-action="modal" data-modal-id="form86171"
                                                             data-component="button">
                                                             <div class="btn-content btn-content-text"><svg
@@ -1179,6 +1188,7 @@
                                                 <div class="button-wrapper button-1 " data-item-id="1">
                                                     <div class="button-container"><a
                                                             class="component-button  filled squared size--medium weight--medium effect--opacity"
+                                                            data-vacancy="Работа на мясокомбинате"
                                                             data-action="modal" data-modal-id="form86171"
                                                             data-component="button">
                                                             <div class="btn-content btn-content-text"><svg
@@ -1721,7 +1731,7 @@
                                                     <div class="component-form form-fields style-filled  fields-count-2"
                                                         data-style="style-filled" data-component="form">
                                                         <form class="form-element" action="send.php" method="post"
-                                                            enctype="multipart/form-data" novalidate="">
+                                                            enctype="multipart/form-data" novalidate=""><input type="hidden" class="input-vacancy" name="input-vacancy" value="--">
                                                             <div class="form_info"><input type="hidden" name="p_id"
                                                                     value="822806"><input type="hidden" name="id"
                                                                     value="form01"><input type="hidden" name="goal"
@@ -2307,7 +2317,7 @@
                                                 <div class="component-form form-fields style-filled  fields-count-3"
                                                     data-style="style-filled" data-component="form">
                                                     <form class="form-element" action="send.php" method="post"
-                                                        enctype="multipart/form-data" novalidate="">
+                                                        enctype="multipart/form-data" novalidate=""><input type="hidden" class="input-vacancy" name="input-vacancy" value="--">
                                                         <div class="form_info"><input type="hidden" name="p_id"
                                                                 value="822806"><input type="hidden" name="id"
                                                                 value="form01"><input type="hidden" name="goal"
@@ -2352,7 +2362,7 @@
                                                                         type="hidden" name="vars[666702]"
                                                                         value="Телефон"></div>
                                                             </div>
-                                                            <div class="form-field" data-type="text"
+                                                            <!-- <div class="form-field" data-type="text"
                                                                 data-is-required="0">
                                                                 <div class="form-field-text"><input type="text"
                                                                         class="form-field-text--input"
@@ -2367,7 +2377,7 @@
                                                                         name="type[758113]" value="text"><input
                                                                         type="hidden" name="vars[758113]"
                                                                         value="Возраст"></div>
-                                                            </div>
+                                                            </div> -->
                                                             <div class="form_fields_advanced"></div>
                                                             <div class="form-submit"><button
                                                                 type="submit"
@@ -2511,7 +2521,7 @@
                                                 <div class="component-form form-fields style-filled  fields-count-2"
                                                     data-style="style-filled" data-component="form">
                                                     <form class="form-element" action="send.php" method="post"
-                                                        enctype="multipart/form-data" novalidate="">
+                                                        enctype="multipart/form-data" novalidate=""><input type="hidden" class="input-vacancy" name="input-vacancy" value="--">
                                                         <div class="form_info"><input type="hidden" name="p_id"
                                                                 value="822806"><input type="hidden" name="id"
                                                                 value="form01"><input type="hidden" name="goal"
@@ -2748,8 +2758,12 @@
 
     <script>
         $('a[data-action="modal"]').click(function (event) {
+            let data_vacancy = $(this).attr('data-vacancy');
             let modal_id = $(this).attr('data-modal-id');
             let modal = $(`.m_${modal_id}`);
+            if(data_vacancy) {
+                modal.find('.input-vacancy').val(data_vacancy);
+            } 
             modal.addClass('show');
             modal.parent().addClass('show overlay');
         });

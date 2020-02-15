@@ -13,6 +13,7 @@ $output = "<a href='$long_link'>$link</a>";
 $post_data = array (
  "entry.162474457" => $_POST['name'],
  "entry.1465718736" => $_POST['phone'],
+ "entry.841460973" => $_POST['input-vacancy'],
  // "entry.613951642" => $link,
  "draftResponse" => "[null,null,&quot;-6227974125012172830&quot;]",
  "pageHistory" => "0",
@@ -39,6 +40,7 @@ curl_close($ch);
 где, XXXXXXXXXXXXXXXXXXXXXXX - токен вашего бота, полученный ранее */
 
 $name = $_POST['name'];
+$vacancy = $_POST['input-vacancy'];
 $phone = preg_replace('![^0-9]+!', '', $_POST['phone']);
 
 if ($_POST['feedback'] == 'phone') {
@@ -75,8 +77,9 @@ $token = "900973756:AAFfxrdOG8SyosLKqsOQ9OmYuELjivx5R4M";
 $chat_id = "-362343380";
 $arr = array(
   'Имя: ' => $name,
-  'Телефон: ' => '%2B'.$phone,
-  'url:' => "<a href='".$long_link."'>".$link."</a>"
+  'Телефон: ' => $phone,
+  'Вакансия: ' => $vacancy,
+  'url:' => "<a href='https://docs.google.com/spreadsheets/d/1n-5o7ZvNfsZ-MzAcT6j8n9_UtuCLrgQuVdZHxCQWqww/'>гугл таблица</a>"
 );
 
 foreach($arr as $key => $value) {
