@@ -50,14 +50,53 @@
             } */
 
             body.adaptive [data-w-id=MENU01] .nav-menu-item .element-item:last-of-type {
-                display: none;  
+                display: none;
             }
         }
 
         .lg-outer {
-                display: none !important;
-            }
+            display: none !important;
+        }
     </style>
+
+    <!-- <!— Facebook Pixel Code —> -->
+    <script>
+        ! function (f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '2469243076730690');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=2469243076730690&ev=PageView&noscript=1" /></noscript>
+    <!-- <!- End Facebook Pixel Code —> -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156529846-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-156529846-1');
+    </script>
 </head>
 
 <body class="is-view adaptive ready is-pointer is-chrome" id="body-content">
@@ -125,7 +164,7 @@
                                             <div
                                                 class="element-text element-text--contact text-style-content text-align-right">
                                                 <p>+38 063 431 59 27</p>
-                                                <p>+38 098 503 90 68</p>
+                                                <p>+38 063 463 95 27</p>
                                             </div>
                                         </div>
                                     </div>
@@ -135,7 +174,8 @@
                                 data-id="103345" data-e-id="header_button" data-mod-id="0" data-components="['button']">
                                 <div class="element-content justify-content-end"><a
                                         class="component-button  filled squared size--small weight--medium effect--opacity"
-                                        data-action="modal" data-modal-id="form13705" data-component="button">
+                                        data-action="modal" data-vacancy="Перезвоните мне" data-modal-id="form13705"
+                                        data-component="button">
                                         <div class="btn-content btn-content-text"><svg class="btn-icon success-icon"
                                                 viewBox="0 0 18 14">
                                                 <path
@@ -436,9 +476,8 @@
                                                 <div class="button-wrapper button-1 " data-item-id="1">
                                                     <div class="button-container"><a
                                                             class="component-button  filled squared size--medium weight--medium effect--opacity"
-                                                            data-vacancy="Работа на складе вещей"
-                                                            data-action="modal" data-modal-id="form86171"
-                                                            data-component="button">
+                                                            data-vacancy="Работа на складе вещей" data-action="modal"
+                                                            data-modal-id="form86171" data-component="button">
                                                             <div class="btn-content btn-content-text"><svg
                                                                     class="btn-icon success-icon" viewBox="0 0 18 14">
                                                                     <path
@@ -450,7 +489,8 @@
                                                 <div class="text-wrapper">
                                                     <div
                                                         class="element-text element-text--price text-style-content text-align-center">
-                                                        <p><span style="color: rgb(252, 0, 0);font-weight: 900;">9 USD</span> в час</p>
+                                                        <p><span style="color: rgb(252, 0, 0);font-weight: 900;">9
+                                                                USD</span> в час</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -518,9 +558,8 @@
                                                 <div class="button-wrapper button-1 " data-item-id="1">
                                                     <div class="button-container"><a
                                                             class="component-button  filled squared size--medium weight--medium effect--opacity"
-                                                            data-vacancy="Уборка квартир и домов"
-                                                            data-action="modal" data-modal-id="form86171"
-                                                            data-component="button">
+                                                            data-vacancy="Уборка квартир и домов" data-action="modal"
+                                                            data-modal-id="form86171" data-component="button">
                                                             <div class="btn-content btn-content-text"><svg
                                                                     class="btn-icon success-icon" viewBox="0 0 18 14">
                                                                     <path
@@ -532,7 +571,8 @@
                                                 <div class="text-wrapper">
                                                     <div
                                                         class="element-text element-text--price text-style-content text-align-center">
-                                                        <p><span style="color: rgb(252, 0, 0);font-weight: 900;">10 USD</span> в час</p>
+                                                        <p><span style="color: rgb(252, 0, 0);font-weight: 900;">10
+                                                                USD</span> в час</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -601,9 +641,8 @@
                                                 <div class="button-wrapper button-1 " data-item-id="1">
                                                     <div class="button-container"><a
                                                             class="component-button  filled squared size--medium weight--medium effect--opacity"
-                                                            data-vacancy="Работа на стройке"
-                                                            data-action="modal" data-modal-id="form86171"
-                                                            data-component="button">
+                                                            data-vacancy="Работа на стройке" data-action="modal"
+                                                            data-modal-id="form86171" data-component="button">
                                                             <div class="btn-content btn-content-text"><svg
                                                                     class="btn-icon success-icon" viewBox="0 0 18 14">
                                                                     <path
@@ -615,7 +654,8 @@
                                                 <div class="text-wrapper">
                                                     <div
                                                         class="element-text element-text--price text-style-content text-align-center">
-                                                        <p><span style="color: rgb(252, 0, 0);font-weight: 900;">10-12 USD</span> в час
+                                                        <p><span style="color: rgb(252, 0, 0);font-weight: 900;">10-12
+                                                                USD</span> в час
                                                         </p>
                                                     </div>
                                                 </div>
@@ -687,9 +727,8 @@
                                                 <div class="button-wrapper button-1 " data-item-id="1">
                                                     <div class="button-container"><a
                                                             class="component-button  filled squared size--medium weight--medium effect--opacity"
-                                                            data-vacancy="Работа в супермаркете"
-                                                            data-action="modal" data-modal-id="form86171"
-                                                            data-component="button">
+                                                            data-vacancy="Работа в супермаркете" data-action="modal"
+                                                            data-modal-id="form86171" data-component="button">
                                                             <div class="btn-content btn-content-text"><svg
                                                                     class="btn-icon success-icon" viewBox="0 0 18 14">
                                                                     <path
@@ -701,7 +740,8 @@
                                                 <div class="text-wrapper">
                                                     <div
                                                         class="element-text element-text--price text-style-content text-align-center">
-                                                        <p><span style="color: rgb(252, 0, 0);font-weight: 900;">9 USD</span> в час</p>
+                                                        <p><span style="color: rgb(252, 0, 0);font-weight: 900;">9
+                                                                USD</span> в час</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -771,9 +811,8 @@
                                                 <div class="button-wrapper button-1 " data-item-id="1">
                                                     <div class="button-container"><a
                                                             class="component-button  filled squared size--medium weight--medium effect--opacity"
-                                                            data-vacancy="Работа в ресторане"
-                                                            data-action="modal" data-modal-id="form86171"
-                                                            data-component="button">
+                                                            data-vacancy="Работа в ресторане" data-action="modal"
+                                                            data-modal-id="form86171" data-component="button">
                                                             <div class="btn-content btn-content-text"><svg
                                                                     class="btn-icon success-icon" viewBox="0 0 18 14">
                                                                     <path
@@ -785,7 +824,8 @@
                                                 <div class="text-wrapper">
                                                     <div
                                                         class="element-text element-text--price text-style-content text-align-center">
-                                                        <p><span style="color: rgb(252, 0, 0);font-weight: 900;">9 USD</span> в час</p>
+                                                        <p><span style="color: rgb(252, 0, 0);font-weight: 900;">9
+                                                                USD</span> в час</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -856,9 +896,8 @@
                                                 <div class="button-wrapper button-1 " data-item-id="1">
                                                     <div class="button-container"><a
                                                             class="component-button  filled squared size--medium weight--medium effect--opacity"
-                                                            data-vacancy="Работа в спорткомплексе"
-                                                            data-action="modal" data-modal-id="form86171"
-                                                            data-component="button">
+                                                            data-vacancy="Работа в спорткомплексе" data-action="modal"
+                                                            data-modal-id="form86171" data-component="button">
                                                             <div class="btn-content btn-content-text"><svg
                                                                     class="btn-icon success-icon" viewBox="0 0 18 14">
                                                                     <path
@@ -870,7 +909,8 @@
                                                 <div class="text-wrapper">
                                                     <div
                                                         class="element-text element-text--price text-style-content text-align-center">
-                                                        <p><span style="color: rgb(252, 0, 0);font-weight: 900;">9 USD</span> в час</p>
+                                                        <p><span style="color: rgb(252, 0, 0);font-weight: 900;">9
+                                                                USD</span> в час</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -941,9 +981,8 @@
                                                 <div class="button-wrapper button-1 " data-item-id="1">
                                                     <div class="button-container"><a
                                                             class="component-button  filled squared size--medium weight--medium effect--opacity"
-                                                            data-vacancy="Работа в кондитерской"
-                                                            data-action="modal" data-modal-id="form86171"
-                                                            data-component="button">
+                                                            data-vacancy="Работа в кондитерской" data-action="modal"
+                                                            data-modal-id="form86171" data-component="button">
                                                             <div class="btn-content btn-content-text"><svg
                                                                     class="btn-icon success-icon" viewBox="0 0 18 14">
                                                                     <path
@@ -955,7 +994,8 @@
                                                 <div class="text-wrapper">
                                                     <div
                                                         class="element-text element-text--price text-style-content text-align-center">
-                                                        <p><span style="color: rgb(252, 0, 0);font-weight: 900;">9 USD</span> в час</p>
+                                                        <p><span style="color: rgb(252, 0, 0);font-weight: 900;">9
+                                                                USD</span> в час</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1021,9 +1061,8 @@
                                                 <div class="button-wrapper button-1 " data-item-id="1">
                                                     <div class="button-container"><a
                                                             class="component-button  filled squared size--medium weight--medium effect--opacity"
-                                                            data-vacancy="Работа горничной"
-                                                            data-action="modal" data-modal-id="form86171"
-                                                            data-component="button">
+                                                            data-vacancy="Работа горничной" data-action="modal"
+                                                            data-modal-id="form86171" data-component="button">
                                                             <div class="btn-content btn-content-text"><svg
                                                                     class="btn-icon success-icon" viewBox="0 0 18 14">
                                                                     <path
@@ -1035,7 +1074,8 @@
                                                 <div class="text-wrapper">
                                                     <div
                                                         class="element-text element-text--price text-style-content text-align-center">
-                                                        <p><span style="color: rgb(252, 0, 0);font-weight: 900;">1500 USD</span> в месяц
+                                                        <p><span style="color: rgb(252, 0, 0);font-weight: 900;">1500
+                                                                USD</span> в месяц
                                                         </p>
                                                     </div>
                                                 </div>
@@ -1105,9 +1145,8 @@
                                                 <div class="button-wrapper button-1 " data-item-id="1">
                                                     <div class="button-container"><a
                                                             class="component-button  filled squared size--medium weight--medium effect--opacity"
-                                                            data-vacancy="Шоколадная фабрика"
-                                                            data-action="modal" data-modal-id="form86171"
-                                                            data-component="button">
+                                                            data-vacancy="Шоколадная фабрика" data-action="modal"
+                                                            data-modal-id="form86171" data-component="button">
                                                             <div class="btn-content btn-content-text"><svg
                                                                     class="btn-icon success-icon" viewBox="0 0 18 14">
                                                                     <path
@@ -1119,7 +1158,8 @@
                                                 <div class="text-wrapper">
                                                     <div
                                                         class="element-text element-text--price text-style-content text-align-center">
-                                                        <p><span style="color: rgb(252, 0, 0);font-weight: 900;">9 USD</span> в час</p>
+                                                        <p><span style="color: rgb(252, 0, 0);font-weight: 900;">9
+                                                                USD</span> в час</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1188,9 +1228,8 @@
                                                 <div class="button-wrapper button-1 " data-item-id="1">
                                                     <div class="button-container"><a
                                                             class="component-button  filled squared size--medium weight--medium effect--opacity"
-                                                            data-vacancy="Работа на мясокомбинате"
-                                                            data-action="modal" data-modal-id="form86171"
-                                                            data-component="button">
+                                                            data-vacancy="Работа на мясокомбинате" data-action="modal"
+                                                            data-modal-id="form86171" data-component="button">
                                                             <div class="btn-content btn-content-text"><svg
                                                                     class="btn-icon success-icon" viewBox="0 0 18 14">
                                                                     <path
@@ -1202,7 +1241,8 @@
                                                 <div class="text-wrapper">
                                                     <div
                                                         class="element-text element-text--price text-style-content text-align-center">
-                                                        <p><span style="color: rgb(252, 0, 0);font-weight: 900;">9 USD</span> в час</p>
+                                                        <p><span style="color: rgb(252, 0, 0);font-weight: 900;">9
+                                                                USD</span> в час</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1731,7 +1771,9 @@
                                                     <div class="component-form form-fields style-filled  fields-count-2"
                                                         data-style="style-filled" data-component="form">
                                                         <form class="form-element" action="send.php" method="post"
-                                                            enctype="multipart/form-data" novalidate=""><input type="hidden" class="input-vacancy" name="input-vacancy" value="--">
+                                                            enctype="multipart/form-data" novalidate=""><input
+                                                                type="hidden" class="input-vacancy" name="input-vacancy"
+                                                                value="--">
                                                             <div class="form_info"><input type="hidden" name="p_id"
                                                                     value="822806"><input type="hidden" name="id"
                                                                     value="form01"><input type="hidden" name="goal"
@@ -1775,8 +1817,7 @@
                                                                             value="Телефон"></div>
                                                                 </div>
                                                                 <div class="form_fields_advanced"></div>
-                                                                <div class="form-submit"><button
-                                                                        type="submit"
+                                                                <div class="form-submit"><button type="submit"
                                                                         class="component-button form-field-submit effect--opacity weight--medium size--medium squared filled wide"
                                                                         data-modal-id="516680_">
                                                                         <div class="btn-content btn-content-text">
@@ -2214,7 +2255,7 @@
                                                         <div
                                                             class="element-text--title text-style-content text-align-inherit">
                                                             <p>+38 063 431 59 27</p>
-                                                            <p>+38 098 503 90 68</p>
+                                                            <p>+38 063 463 95 27</p>
                                                         </div>
                                                         <div
                                                             class="element-text--subtitle text-style-content text-align-inherit">
@@ -2267,8 +2308,11 @@
                                                             href="https://facebook.com/rabotaisrael770/"
                                                             title="Facebook" target="_blank">
                                                             <div class="social social-fb">
-                                                                <svg class="social-icon" viewBox="0 0 20 20" id="fb-alt">
-                                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M 10.6826 20L 1.10385 20C 0.49403 20 0 19.5057 0 18.8961L 0 1.10384C 0 0.494104 0.494108 0 1.10385 0L 18.8962 0C 19.5058 0 20 0.494104 20 1.10384L 20 18.8961C 20 19.5057 19.5057 20 18.8962 20L 13.7997 20L 13.7997 12.2549L 16.3994 12.2549L 16.7886 9.23649L 13.7997 9.23649L 13.7997 7.30943C 13.7997 6.43554 14.0424 5.84 15.2955 5.84L 16.8939 5.83931L 16.8939 3.13962C 16.6175 3.10284 15.6687 3.02065 14.5648 3.02065C 12.2603 3.02065 10.6826 4.4273 10.6826 7.0105L 10.6826 9.23649L 8.0763 9.23649L 8.0763 12.2549L 10.6826 12.2549L 10.6826 20Z"></path>
+                                                                <svg class="social-icon" viewBox="0 0 20 20"
+                                                                    id="fb-alt">
+                                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                        d="M 10.6826 20L 1.10385 20C 0.49403 20 0 19.5057 0 18.8961L 0 1.10384C 0 0.494104 0.494108 0 1.10385 0L 18.8962 0C 19.5058 0 20 0.494104 20 1.10384L 20 18.8961C 20 19.5057 19.5057 20 18.8962 20L 13.7997 20L 13.7997 12.2549L 16.3994 12.2549L 16.7886 9.23649L 13.7997 9.23649L 13.7997 7.30943C 13.7997 6.43554 14.0424 5.84 15.2955 5.84L 16.8939 5.83931L 16.8939 3.13962C 16.6175 3.10284 15.6687 3.02065 14.5648 3.02065C 12.2603 3.02065 10.6826 4.4273 10.6826 7.0105L 10.6826 9.23649L 8.0763 9.23649L 8.0763 12.2549L 10.6826 12.2549L 10.6826 20Z">
+                                                                    </path>
                                                                 </svg>
                                                             </div>
                                                         </a></div>
@@ -2317,7 +2361,8 @@
                                                 <div class="component-form form-fields style-filled  fields-count-3"
                                                     data-style="style-filled" data-component="form">
                                                     <form class="form-element" action="send.php" method="post"
-                                                        enctype="multipart/form-data" novalidate=""><input type="hidden" class="input-vacancy" name="input-vacancy" value="--">
+                                                        enctype="multipart/form-data" novalidate=""><input type="hidden"
+                                                            class="input-vacancy" name="input-vacancy" value="--">
                                                         <div class="form_info"><input type="hidden" name="p_id"
                                                                 value="822806"><input type="hidden" name="id"
                                                                 value="form01"><input type="hidden" name="goal"
@@ -2331,10 +2376,9 @@
                                                             <div class="form-field" data-type="name"
                                                                 data-is-required="1">
                                                                 <div class="form-field-text"><input type="text"
-                                                                        class="form-field-text--input"
-                                                                        name="name" autocomplete="on"
-                                                                        data-check="name" data-required="true"
-                                                                        required="">
+                                                                        class="form-field-text--input" name="name"
+                                                                        autocomplete="on" data-check="name"
+                                                                        data-required="true" required="">
                                                                     <hr class="border"><label
                                                                         class="form-field-title">Имя *</label>
                                                                     <div class="error"><span class="error-text"></span>
@@ -2348,10 +2392,9 @@
                                                             <div class="form-field" data-type="phone"
                                                                 data-is-required="1">
                                                                 <div class="form-field-text"><input type="tel"
-                                                                        class="form-field-text--input"
-                                                                        name="phone" autocomplete="on"
-                                                                        data-check="phone" data-required="true"
-                                                                        required="">
+                                                                        class="form-field-text--input" name="phone"
+                                                                        autocomplete="on" data-check="phone"
+                                                                        data-required="true" required="">
                                                                     <hr class="border"><label
                                                                         class="form-field-title">Телефон *</label>
                                                                     <div class="error"><span class="error-text"></span>
@@ -2379,8 +2422,7 @@
                                                                         value="Возраст"></div>
                                                             </div> -->
                                                             <div class="form_fields_advanced"></div>
-                                                            <div class="form-submit"><button
-                                                                type="submit"
+                                                            <div class="form-submit"><button type="submit"
                                                                     class="component-button form-field-submit effect--opacity weight--medium size--medium squared filled wide"
                                                                     data-modal-id="done27309">
                                                                     <div class="btn-content btn-content-text">
@@ -2521,7 +2563,8 @@
                                                 <div class="component-form form-fields style-filled  fields-count-2"
                                                     data-style="style-filled" data-component="form">
                                                     <form class="form-element" action="send.php" method="post"
-                                                        enctype="multipart/form-data" novalidate=""><input type="hidden" class="input-vacancy" name="input-vacancy" value="--">
+                                                        enctype="multipart/form-data" novalidate=""><input type="hidden"
+                                                            class="input-vacancy" name="input-vacancy" value="--">
                                                         <div class="form_info"><input type="hidden" name="p_id"
                                                                 value="822806"><input type="hidden" name="id"
                                                                 value="form01"><input type="hidden" name="goal"
@@ -2536,10 +2579,9 @@
                                                             <div class="form-field" data-type="phone"
                                                                 data-is-required="1">
                                                                 <div class="form-field-text"><input type="tel"
-                                                                        class="form-field-text--input"
-                                                                        name="phone" autocomplete="on"
-                                                                        data-check="phone" data-required="true"
-                                                                        required="">
+                                                                        class="form-field-text--input" name="phone"
+                                                                        autocomplete="on" data-check="phone"
+                                                                        data-required="true" required="">
                                                                     <hr class="border"><label
                                                                         class="form-field-title">Телефон *</label>
                                                                     <div class="error"><span class="error-text"></span>
@@ -2568,8 +2610,7 @@
                                                                         value="Удобное время для связи"></div>
                                                             </div>
                                                             <div class="form_fields_advanced"></div>
-                                                            <div class="form-submit"><button
-                                                                type="submit"
+                                                            <div class="form-submit"><button type="submit"
                                                                     class="component-button form-field-submit effect--opacity weight--medium size--medium squared filled wide"
                                                                     data-modal-id="done78930">
                                                                     <div class="btn-content btn-content-text">
@@ -2697,7 +2738,7 @@
                                                 <div
                                                     class="element-text element-text--contact text-style-content text-align-right">
                                                     <p>+38 063 431 59 27</p>
-                                                    <p>+38 098 503 90 68</p>
+                                                    <p>+38 063 463 95 27</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -2711,7 +2752,8 @@
                                     data-components="['button']">
                                     <div class="element-content justify-content-start"><a
                                             class="component-button  filled squared size--small weight--medium effect--opacity"
-                                            data-action="modal" data-modal-id="form13705" data-component="button">
+                                            data-action="modal" data-vacancy="Перезвоните мне" data-modal-id="form13705"
+                                            data-component="button">
                                             <div class="btn-content btn-content-text"><svg class="btn-icon success-icon"
                                                     viewBox="0 0 18 14">
                                                     <path
@@ -2761,9 +2803,9 @@
             let data_vacancy = $(this).attr('data-vacancy');
             let modal_id = $(this).attr('data-modal-id');
             let modal = $(`.m_${modal_id}`);
-            if(data_vacancy) {
+            if (data_vacancy) {
                 modal.find('.input-vacancy').val(data_vacancy);
-            } 
+            }
             modal.addClass('show');
             modal.parent().addClass('show overlay');
         });
